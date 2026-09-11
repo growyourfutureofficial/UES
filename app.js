@@ -29,15 +29,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // 0. FIREBASE INITIALIZATION
     // ==========================================
     const firebaseConfig = {
-        apiKey: "AIzaSyAOgfi4Rf_mXVGDp_-MtYie1rJ1Kgm5kjQ",
-        authDomain: "grow-you-future.firebaseapp.com",
-        databaseURL: "https://grow-you-future-default-rtdb.asia-southeast1.firebasedatabase.app/",
-        projectId: "grow-you-future",
-        storageBucket: "grow-you-future.firebasestorage.app",
-        messagingSenderId: "105468107396",
-        appId: "1:105468107396:web:bd72075ec134587260c0d1"
+        apiKey: "AIzaSyC8BTpn2csguW6lpIK59PszFTyg-rlFTVg",
+        authDomain: "theues-e33a7.firebaseapp.com",
+        databaseURL: "https://theues-e33a7-default-rtdb.asia-southeast1.firebasedatabase.app/",
+        projectId: "theues-e33a7",
+        storageBucket: "theues-e33a7.firebasestorage.app",
+        messagingSenderId: "23668410502",
+        appId: "1:23668410502:web:96a6b133dd4fa92fc76907"
     };
-
 
     // Initialize Firebase
     if (!firebase.apps.length) {
@@ -50,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // ==========================================
     // MASTER GOOGLE SCRIPT URL (Global Engine Scope)
     // ==========================================
-    const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzdPLize-R-Ek63vHy2FXfpaZ_nHdGK3DXGg9B8d-qfL2Dw_SDfNhQwnn6jPAbxaHAFMw/exec";
+    const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyruNrtBL0dM0yQ1ZCPLdGoBJk5Xn2bg_LJabp-_rQjTNBQN_t7PfsZrMcumQxhKYDwZA/exec";
 
     // ==========================================
     // PREMIUM CUSTOM ALERT FUNCTION
@@ -73,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // ==========================================
 
     // 🚀 IIT EXPERT FIX: Define Master Admin Identity (Change this to your real Admin Email)
-    const MASTER_ADMIN_EMAIL = "growyourfutureofficial@gmail.com"; 
+    const MASTER_ADMIN_EMAIL = "ultimateearningsource@gmail.com"; 
 
     window.navigateTo = function(screen, pushToHistory = true) {
         
@@ -135,11 +134,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p class="premium-subtitle">Your Ultimate Earning & Growing Portal</p>
                 </div>
 
-                <!-- 🚀 IIT EXPERT FIX: Professional Trust Stats Grid -->
                 <div class="trust-stats-container">
                     <div class="trust-stat-box">
                         <span class="material-symbols-rounded stat-icon" style="color: #3b82f6; background: rgba(59, 130, 246, 0.1);">group</span>
-                        <h4>5K+</h4>
+                        <h4>10K+</h4>
                         <p>Trsuted Users</p>
                     </div>
                     <div class="trust-stat-box">
@@ -1542,7 +1540,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const refLink = `${window.location.origin}${window.location.pathname}?ref=${code}#register`;
             
             // 🚀 IIT EXPERT: Updated Share Text to maximize 10% Mutual Bonus Conversion
-            const shareText = `Hey! Join UES using my link. Activate your account and we BOTH get a 10% instant cash bonus! Click here to register:`;
+            const shareText = `Hey! Join UES using my link (Central Government Verified). Activate your account and we BOTH get a 10% instant cash bonus! Click here to register:`;
             
             if (navigator.share) {
                 navigator.share({ title: 'Join UES', text: shareText, url: refLink }).catch(console.error);
@@ -3286,11 +3284,11 @@ document.addEventListener('DOMContentLoaded', () => {
                     <img src="./icon-512x512.png" style="width: 100%; height: 100%; border-radius: 22px; object-fit: cover;">
                 </div>
                 
-                <h2 style="font-size: 28px; font-weight: 900; color: #0f172a; margin-bottom: 8px; letter-spacing: -0.5px;">Central Government Verified</h2>
+                <h2 style="font-size: 28px; font-weight: 900; color: #0f172a; margin-bottom: 8px; letter-spacing: -0.5px;">Central Government <label style="color: #05B3ED;">Verified</label></h2>
                 <p style="font-size: 15px; color: #64748b; font-weight: 600; margin-bottom: 40px; max-width: 300px; line-height: 1.5;">A Verified Platform to ensure the stable economy</p>
 
                 <!-- Action Button -->
-                <button id="strictInstallBtn" style="background: linear-gradient(135deg, #1b6e35, #10b981); color: white; border: none; padding: 18px 24px; width: 100%; max-width: 300px; border-radius: 16px; font-size: 16px; font-weight: 800; display: flex; justify-content: center; align-items: center; gap: 8px; box-shadow: 0 8px 20px rgba(27, 110, 53, 0.3); cursor: pointer; transition: transform 0.2s;" onmousedown="this.style.transform='scale(0.96)'" onmouseup="this.style.transform='scale(1)'">
+                <button id="strictInstallBtn" style="background: linear-gradient(150deg, #E33817, #CC2302); color: white; border: none; padding: 18px 24px; width: 100%; max-width: 300px; border-radius: 16px; font-size: 16px; font-weight: 800; display: flex; justify-content: center; align-items: center; gap: 8px; box-shadow: 0 8px 20px rgba(27, 110, 53, 0.3); cursor: pointer; transition: transform 0.2s;" onmousedown="this.style.transform='scale(0.96)'" onmouseup="this.style.transform='scale(1)'">
                     <span class="material-symbols-rounded" style="font-size: 24px;">download</span> Install App Now
                 </button>
                 
